@@ -1,38 +1,32 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>codedamn HTML Playground</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css">
+  <head>
+    <title>codedamn HTML Playground</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="weather-container">
+      <div class="location">
+        <label for="city-input">City Name:</label>
+        <input type="text" placeholder="Enter city name" id="city-input" />
+        <button onclick="getWeather()">Get weahter</button>
+      </div>
+
+      <div class="weather-info">
+        <h2 id="temperature">Temperature</h2>
+        <p id="description">Description</p>
+      </div>
+
+      <div class="weather-icon">
+        <img src="" id="weather-icon" alt="" srcset="" />
+      </div>
+    </div>
 
 
+	<!-- your code goes here -->
 
-		
-	</head>
-	<body>
-
-		<div id="weather-container">
-
-			<div class="location">
-				<label for="city-input">City Name:</label>
-				<input type="text" placeholder="Enter city name" id="city-input">
-				<button onclick="getWeather()">Get weahter</button>
-			</div>
-
-			<div class="weather-info">
-				<h2 id="temperature">Temperature</h2>
-				<p id="description">Description</p>
-		   </div>
-
-			<div class="weather-icon">
-				<img src="" id="weather-icon" alt="" srcset="">
-
-
-			</div>
-
-		</div>
-		
-		
-	</body>
+	
+  </body>
 </html>
