@@ -22,11 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-.weather-icon img{
-
-
-	/* your code goes here  */
-
-
-	
+.weather-icon img {
+    width: 80px;
+    height: 80px;
 }
